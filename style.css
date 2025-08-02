@@ -25,7 +25,6 @@
 }
 .box{
     min-width: 40vw;
-    /* width: auto; */
     height: 25vh;
     background-color: #ffffff;
     display: flex;
@@ -66,7 +65,6 @@
 }
 .box div:first-child{
 box-shadow: 5px 5px 10px #DC143C ,-5px 5px 10px #FF4500 , 5px -5px 10px #8A0303 , -5px -5px 10px #CC5500 ;
-    /* width: 400px; */
     width: auto;
     height: 55px;
     text-align: center;
@@ -84,35 +82,3 @@ box-shadow: 5px 5px 10px #DC143C ,-5px 5px 10px #FF4500 , 5px -5px 10px #8A0303 
 }
 
 
-
-/* .buttons{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.buttons button::after{
-    content: '';
-    position: absolute;
-z-index: -1;
-height: 22px;
-width: 22px;
-border-radius: 0.2rem;
-background-image: linear-gradient(to bottom right , black , red , orange);
-}
-button:hover{
-    z-index: 0;
-    box-shadow: 10px 0 100px blue ,  -10px 0 100px pink;
-} */
-
-/* p{
-    font-family: "Orbitron";
-}
-    #000000  (Black)
-#DC143C  (Red - Crimson)
-#FF4500  (Orange - Flame)
-#8A0303  (Dark Red - Blood)
-#CC5500  (Burnt Orange)
-#333333  (Charcoal)
-#F5F5F5  (Ash White)
- */
